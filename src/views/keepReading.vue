@@ -35,7 +35,7 @@ export default {
   },
   created() {
     axios
-      .get("https://blog-with-vue-f17e7.firebaseio.com/cards.json")
+      .get("https://vue-blog-a0c51.firebaseio.com/cards.json")
       .then((response) => {
         let data = response.data;
         this.show = true;

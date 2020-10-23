@@ -58,7 +58,7 @@ export default {
     onSubmit() {
       this.post.postURLname = this.post.contentHeader.replace(/\s/g, '');
       axios
-        .post("https://blog-with-vue-f17e7.firebaseio.com/cards.json", {
+        .post("https://vue-blog-a0c51.firebaseio.com/cards.json", {
           ...this.post,
         })
         .then((response) => {
